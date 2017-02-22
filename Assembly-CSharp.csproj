@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{920CD4F8-3DD7-A479-4DDB-8D470E40103F}</ProjectGuid>
+    <ProjectGuid>{9C2F885F-B1C4-2C1B-0356-4E6257ED5926}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -49,6 +49,8 @@
      <Compile Include="Assets\Scripts\CameraCradle.cs" />
      <Compile Include="Assets\Scripts\Definitions\PlayerSetupDefinition.cs" />
      <Compile Include="Assets\Scripts\Hud\Map.cs" />
+     <Compile Include="Assets\Scripts\Hud\MapBlip.cs" />
+     <Compile Include="Assets\Scripts\Hud\VisibilityManager.cs" />
      <Compile Include="Assets\Scripts\Interactions\Highlight.cs" />
      <Compile Include="Assets\Scripts\Interactions\Interaction.cs" />
      <Compile Include="Assets\Scripts\Interactions\RightClickNavigation.cs" />
