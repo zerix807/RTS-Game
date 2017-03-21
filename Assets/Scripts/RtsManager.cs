@@ -31,6 +31,7 @@ public class RtsManager : MonoBehaviour {
 					if (Player.Default == null)
 						Player.Default = p;
 					go.AddComponent<RightClickNavigation> ();
+					go.AddComponent<ActionSelect> ();
 				}
 			}
 		}
